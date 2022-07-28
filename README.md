@@ -1,14 +1,13 @@
-# Welcome to your CDK TypeScript project
+# CDK Sample App
 
-This is a blank project for CDK development with TypeScript.
+A sample app slightly changed from the example at https://github.com/aws-samples/aws-cdk-examples/tree/master/typescript/api-cors-lambda-crud-dynamodb
 
-The `cdk.json` file tells the CDK Toolkit how to execute your app.
+## Commands To Run
 
-## Useful commands
+1. Yarn install
+2. cdk bootstrap
+3. cdk deploy
 
-* `npm run build`   compile typescript to js
-* `npm run watch`   watch for changes and compile
-* `npm run test`    perform the jest unit tests
-* `cdk deploy`      deploy this stack to your default AWS account/region
-* `cdk diff`        compare deployed stack with current state
-* `cdk synth`       emits the synthesized CloudFormation template
+## Result
+
+This will create the list of resources defined in `app.ts` in your deploy environment. Make sure to have a credential file

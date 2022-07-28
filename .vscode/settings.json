@@ -1,0 +1,18 @@
+{
+    // should be covered by editorconfig, but useful defaults otherwise
+    "editor.tabSize": 2,
+    "editor.trimAutoWhitespace": true,
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    // always do this, but use workaround for elm for performance
+    "editor.formatOnSave": true,
+    "eslint.validate": [
+        "javascript",
+        "typescript"
+      ],
+    "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    // Conflicts w/ Prettier for multiline imports, trailing commas.
+    // "source.organizeImports": true,
+    },
+}
